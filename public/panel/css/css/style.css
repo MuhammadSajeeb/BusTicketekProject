@@ -1,0 +1,59 @@
+.navbar{
+
+
+    height: 70px;
+
+}
+
+.nav-item{
+    padding-right: 30px;
+}
+
+.top-search{
+    border: none;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+    background-color: #F8F9FA;
+}
+
+.product{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.17);
+}
+
+#navbarTogglerDemo02{
+    z-index: 1000!important;
+    background-color: white!important;
+}
+
+#mainContainer{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#secondContainer{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#contactImage{
+    margin-left: -60px;
+}
+
+.modal-backdrop{
+    z-index: 10!important;
+}
+
+@media (max-width: 900px) {  
+    #mainContainer {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #secondContainer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #contactImage{
+        margin-left: 0px;
+    }
+}
